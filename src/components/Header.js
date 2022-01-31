@@ -30,7 +30,7 @@ function Header() {
           <span>SERIES</span>
         </a>
       </NavMenu>
-      <UserImg src="/images/JeetLinkedIn.jpeg" alt="" />
+      <UserImg src="/images/JeetInsta.jpg" alt="" />
     </Nav>
   );
 }
@@ -43,6 +43,7 @@ const Nav = styled.nav`
   display: flex;
   align-item: center;
   padding: 0px 36px;
+  /* overflow-x: hidden; */
 `;
 const Logo = styled.img`
   width: 80px;
@@ -51,7 +52,8 @@ const NavMenu = styled.div`
   display: flex;
   flex: 1;
   margin-left: 25px;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: space-around;
   a {
     display: flex;
     align-items: center;
@@ -88,7 +90,7 @@ const NavMenu = styled.div`
 `;
 const UserImg = styled.img`
   width: 36px;
-  height: 38px;
+  height: 65px;
   padding: 15px 0px;
   border-radius: 50%;
   cursor: pointer;
